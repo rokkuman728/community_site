@@ -1,1 +1,3 @@
-テスト1
+<x-slot name="header">ヘッダー</x-slot>
+コンポーネントテスト1
+<x-tests.card title="タイトル" content="本文" :message="$message" />
